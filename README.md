@@ -4,7 +4,7 @@
 ## Session 1: Tuesday, June 11th, 2019
 - Intro to IoT
 - [Intro to MQTT](https://github.com/pmanzoni/KIC2019/blob/master/MQTT_v1.pdf)
-	- Lab 0
+	- [Lab 0](https://hackmd.io/s/By13Gqc6N)
 
 ## Session 2: Wednesday, June 12th, 2019
 - Intro to TTN (Marco) + LoRaWAN
