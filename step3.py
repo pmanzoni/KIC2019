@@ -12,9 +12,9 @@ THE_TOPIC = "+/devices/+/up"
 
 # SET HERE THE VALUES OF YOUR APP AND DEVICE:
 # TTN_USERNAME is the Application ID
-TTN_USERNAME = "kic2019lab"
+TTN_USERNAME = "VOID"
 # TTN_PASSWORD is the Application Access Key, in the bottom part of the Overview section of the “Application” window.
-TTN_PASSWORD = "ttn-account-v2.sXoi_SnWqAiepeVc1F70BElyMT7IzW9CQ48QJEGE9SM"
+TTN_PASSWORD = "VOID"
 
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, flags, rc):
