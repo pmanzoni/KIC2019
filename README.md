@@ -2,7 +2,9 @@
 
 
 ## Session 1: Tuesday, June 11th, 2019
-- [Intro to IoT](https://github.com/pmanzoni/KIC2019/blob/master/IoT-Introduction.pdf)
+-[Syllabus](https://github.com/pmanzoni/KIC2019/blob/master/IoT-Syllabus.pdf)
+-[Intro to IoT](https://github.com/pmanzoni/KIC2019/blob/master/IoT-Introduction.pdf)
+
 - [Intro to MQTT](https://github.com/pmanzoni/KIC2019/blob/master/intro_to_MQTT.pdf)
 	- [Lab 1: MQTT using a web client](https://hackmd.io/s/By13Gqc6N)
 
