@@ -32,13 +32,13 @@ def on_message(client, userdata, msg):
 
     payload_raw = themsg["payload_raw"]
     payload_plain = base64.b64decode(payload_raw)
-    vals = struct.unpack(">fff", payload_plain)
+    vals = struct.unpack(">ff", payload_plain)
 
     gtw_id = themsg["metadata"]["gateways"][0]["gtw_id"]
     rssi = themsg["metadata"]["gateways"][0]["rssi"]
 
     print("%s, rssi=%d" % (gtw_id, rssi))
-    print("@%s >> temp=%.3f hum=%.3f lux=%.3f" % (time.strftime("%H:%M:%S"), vals[0], vals[1], vals[2]))
+    print("@%s >> temp=%.3f lux=%.3f" % (time.strftime("%H:%M:%S"), vals[0], vals[1]))
 
 
 
