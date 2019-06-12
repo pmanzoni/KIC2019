@@ -10,7 +10,8 @@
 	- [Lab 1: MQTT using a web client](https://hackmd.io/s/By13Gqc6N)
 
 ## Session 2: Wednesday, June 12th, 2019
-- Intro to TTN and LoRaWAN
+- [Intro to IoT Communications](https://github.com/pmanzoni/KIC2019/blob/master/IoT-communications.pdf)
+- [Intro to TTN](https://github.com/pmanzoni/KIC2019/blob/master/IoT-TTN.pdf)
 - LAB 2: Installing a gateway, 
 - [LAB 3: sending sensors data with LoRaWAN via TTN to Ubidots](https://hackmd.io/s/Hy6qUmbA4)
 
