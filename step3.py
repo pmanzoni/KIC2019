@@ -34,12 +34,12 @@ def on_message(client, userdata, msg):
     payload_plain = base64.b64decode(payload_raw)
     vals = struct.unpack(">ff", payload_plain)
 
+    dev_id = themsg["dev_id"]
     gtw_id = themsg["metadata"]["gateways"][0]["gtw_id"]
     rssi = themsg["metadata"]["gateways"][0]["rssi"]
 
-    print("%s, rssi=%d" % (gtw_id, rssi))
+    print("%s, gtw=%s, rssi=%d" % (dev_id, gtw_id, rssi))
     print("@%s >> temp=%.3f lux=%.3f" % (time.strftime("%H:%M:%S"), vals[0], vals[1]))
-
 
 
 client = mqtt.Client()

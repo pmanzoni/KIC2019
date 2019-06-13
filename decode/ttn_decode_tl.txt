@@ -14,14 +14,6 @@ function Decoder(bytes, port) {
   var m = (e == 0) ? (bits & 0x7fffff) << 1 : (bits & 0x7fffff) | 0x800000;
   var f = sign * m * Math.pow(2, e - 150);
 
-  decoded.humidity = f
-
-  var bits = (bytes[8] << 24) | (bytes[9] << 16) | (bytes[10] << 8) | (bytes[11]);
-  var sign = ((bits >>> 31) == 0) ? 1.0 : -1.0;
-  var e = ((bits >>> 23) & 0xff);
-  var m = (e == 0) ? (bits & 0x7fffff) << 1 : (bits & 0x7fffff) | 0x800000;
-  var f = sign * m * Math.pow(2, e - 150);
-
   decoded.lux = f
 
   return decoded;
