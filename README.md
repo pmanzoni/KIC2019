@@ -16,4 +16,6 @@
 - [LAB 3: sending sensors data with LoRaWAN via TTN to Ubidots](https://hackmd.io/s/Hy6qUmbA4)
 
 ## Session 3: Friday, June 14th, 2019
-- LAB 4: InfluxDB, Telegraf and Graphana
+- [LAB 4: InfluxDB, Telegraf and Grafana](https://github.com/pmanzoni/KIC2019/blob/master/TIG.pdf)
+- [Installation commands](https://github.com/pmanzoni/KIC2019/blob/master/Installation_commands.txt)
+
