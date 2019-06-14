@@ -11,8 +11,8 @@ sudo apt-get install influxdb
 
 Install Grafana with:
 
-sudo wget https://s3-us-west-2.amazonaws.com/Grafana-releases/release/grafana_5.2.0-beta1_armhf.deb 
-sudo dpkg -i grafana_5.2.0-beta1_armhf.deb 
+sudo wget https://dl.grafana.com/oss/release/grafana-rpi_6.2.2_armhf.deb
+sudo dpkg -i grafana-rpi_6.2.2_armhf.deb
 
 We can now activate all the services:
 
